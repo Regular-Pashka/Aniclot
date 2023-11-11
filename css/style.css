@@ -1,0 +1,104 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open-Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+.text-h2 {
+	color: var(--Dark, #000);
+	text-align: center;
+	font-feature-settings: 'clig' off, 'liga' off;
+
+	/* H2 */
+	font-family: 'Roboto';
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.text-h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.header {
+}
+.top-bg-color {
+	background-color: rgba(30, 40, 50, 0.05);
+}
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header__top-container {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 31px;
+	margin-bottom: 10px;
+}
+.header__search {
+	padding-top: 15px;
+}
+.header__options {
+	display: flex;
+	padding-top: 15px;
+}
+.header__options-account {
+	margin-right: 22px;
+}
+.header__options-account:last-child {
+	margin: 0;
+}
+
+.header__top-container-floor {
+	max-width: 1320px;
+	height: 1px;
+	background-color: #e3e3e3;
+	margin: 0 auto;
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.header__menu-option {
+	font-family: 'Open Sans';
+	color: var(--Dark, #000);
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	text-transform: capitalize;
+}
+.main {
+}
+.shopping__intro {
+}
+.shopping__intro-info {
+}
+.shopping__intro-info-h2 {
+}
+.shopping__intro-info-text {
+}
+.shopping__intro-btn {
+}
+.shopping__intro-pic {
+}
