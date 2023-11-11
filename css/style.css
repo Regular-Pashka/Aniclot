@@ -91,14 +91,56 @@ body {
 .main {
 }
 .shopping__intro {
+	display: flex;
+	padding-top: 81px;
 }
 .shopping__intro-info {
+
 }
 .shopping__intro-info-h2 {
+	font-family: 'Roboto';
+	padding-top: 74px;
+	font-size: 74px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 55px; /* 74.324% */
+	text-transform: capitalize;
 }
 .shopping__intro-info-text {
+	padding-top: 52px;
+	margin-bottom: 66px;
+	color: var(--Dark, #000);
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 55px; /* 183.333% */
+	text-transform: capitalize;
 }
 .shopping__intro-btn {
+	background: var(--Black, #1E2832);
+	display: inline-flex;
+	border: none;
+	box-shadow: none;
+	padding: 19px 26px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
 }
 .shopping__intro-pic {
+	max-width: 424px;
+	max-height: 542px;
+	margin-right: 112px;
+	padding-left: 98px;
+	border-radius: 0 0 160px 0;
+}
+.shopping__intro-btn:hover {
+	background-color: orange;
 }
