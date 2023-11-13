@@ -143,6 +143,7 @@ body {
 	max-height: 542px;
 	border-radius: 0 0 160px 0;
 	z-index: 10;	
+	margin-bottom: 80px;
 }
 .shopping__intro-btn:hover {
 	background-color: orange;
@@ -156,4 +157,18 @@ body {
 	height: 542px;
 	border-radius: 160px 0px;
 	border: 2px solid var(--Dark-25, rgba(0, 0, 0, 0.25));
+}
+
+.anime__outfit {
+}
+.anime__outfit-logos {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 90px;
+}
+.anime__outfit-logo {
+}
+.anime__outfit-style-examples {
+}
+.anime__outfit-style-example {
 }

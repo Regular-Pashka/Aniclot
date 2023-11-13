@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			<div class="header__top-container-floor"></div>
-			<div class="header__menu">
+			<div class="header__menu"> <!-- это лучше сделать через ul и li -->
 				<div class="header__menu-option">Связаться с нами</div>
 				<div class="header__menu-option">О нас</div>
 				<div class="header__menu-option">Акции</div>
@@ -43,13 +43,13 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="top-bg-color">
+		<div class="top-bg-color"> <!-- нужно секцию поставить перед этими дивами -->
 			<div class="container">
 				<section class="shopping__intro">
 					<div class="shopping__intro-info">
 						<div class="shopping__intro-info-h2">Коллекции</div>
 						<div class="shopping__intro-info-text">Здесь вы можете найти футболки и худи из множества разных аниме</div>
-						<button class="shopping__intro-btn" href="#"><img src="/img/btn-shop.svg" alt="Cart"> shop now</button>
+						<button class="shopping__intro-btn" href="#"><img src="/img/btn-shop.svg" alt="Cart">Купить</button>
 					</div>
 					<div class="shopping__intro-image">
 						<img class="shopping__intro-pic" src="/img/shopping__info-img.jpg">
@@ -58,6 +58,24 @@
 				</section>
 			</div>
 		</div>
+		<section class="anime__outfit">
+			<div class="container">
+				<ul class="anime__outfit-logos">
+					<li class="anime__outfit-logo"></li>
+					<li class="anime__outfit-logo"></li>
+					<li class="anime__outfit-logo"></li>
+					<li class="anime__outfit-logo"></li>
+					<li class="anime__outfit-logo"></li>
+				</ul>
+				<div class="anime__outfit-style-examples">
+					<img src="" alt="" class="anime__outfit-style-example">
+					<img src="" alt="" class="anime__outfit-style-example">
+					<img src="" alt="" class="anime__outfit-style-example">
+					<img src="" alt="" class="anime__outfit-style-example">
+					<img src="" alt="" class="anime__outfit-style-example">
+				</div>
+			</div>
+		</section>
 	</main>
 	<script src="/js/script.js"></script>
 </body>
