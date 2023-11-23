@@ -306,3 +306,63 @@ body {
 .top__sales-cards-btn {
 	padding: 5 20px;
 }
+.footer {
+	padding-top: 80px;
+}
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__info-main {
+	/* margin-right: 30px; */
+	padding-left: 10px;
+	min-width: 320px;
+	
+}
+.footer__logo {
+	margin-bottom: 26px;
+}
+.footer__moto {
+	max-width: 320px;
+	margin-bottom: 26px;
+	color: var(--Black-75, rgba(30, 40, 50, 0.75));
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+
+}
+.footer__socialnet {
+}
+.footer__socialnet-ico {
+	max-height: 25px;
+	max-width: 25px;
+}
+.footer__nav {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__nav-list {
+	margin-right: 112px;
+	min-width: 160px;
+}
+.footer__nav-list:last-child {
+	margin-right: 0;
+}
+.footer__list-title {
+	margin-bottom: 18px;	
+}
+.footer__list-h6 {
+}
+.footer__list-item {
+	margin-bottom: 10px;
+	
+}
+.footer__item-link {
+}
+.footer__bottom {
+	background-color: #000;
+}
+.footer__bottom-text {
+}
+.footer__bottom-btn {
+}
