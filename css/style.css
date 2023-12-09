@@ -399,3 +399,9 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 }
+.footer__bottom-btn:hover {
+	cursor: pointer;
+}
+.footer__bottom-arr {
+	padding-left: 6px;
+}
